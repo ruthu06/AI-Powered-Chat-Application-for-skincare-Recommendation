@@ -1,31 +1,70 @@
-# AI-Powered-Chat-Application-for-skincare-Recommendation
-This project is a full-stack web application that leverages AI to deliver personalized and dynamic user interactions. It features a login/signup system, a personalized quiz for tailored recommendations,
-and an intelligent chatbot for contextual conversations.
-Features
-User Authentication:
-Secure login and signup functionality using Node.js and MongoDB, ensuring protected data storage and seamless user management.
+# Getting Started with Create React App
 
-Personalized Quiz:
-Dynamic quiz feature to capture user preferences and provide relevant AI-driven recommendations.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-AI Chatbot Integration:
-Fine-tuned BlenderBot model using Hugging Face API for intelligent, multi-turn chatbot conversations.
+## Available Scripts
 
-Chat History Management:
-Features to retrieve past chat sessions and clear chat history through a REST API.
+In the project directory, you can run:
 
-Responsive Frontend:
-Built with React.js for an intuitive and engaging user interface, complete with image displays and conditional rendering.
+### `npm start`
 
-Backend Services:
-Efficient logic handling for chat and quiz functionalities using Express.js and RESTful APIs.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Cross-Browser Compatibility:
-Locally deployed and rigorously tested for a seamless experience across multiple web browsers.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Technologies Used
-Frontend: React.js, JavaScript, CSS
-Backend: Node.js, Express.js
-Database: MongoDB
-AI Model: BlenderBot, Hugging Face API
-APIs: REST APIs for data handling and model interactions
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
